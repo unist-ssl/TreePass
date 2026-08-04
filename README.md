@@ -29,10 +29,12 @@ evaluation needs a `prefix` query distribution, staged / reused query keys,
 and a warmup / measured phase split, among others.
 
 TreePass lives in `splinterdb/src/treepass.{c,h}` (derived from upstream
-`clockcache.{c,h}`). `btree.c`, `trunk.c`, `core.c`, `routing_filter.c`,
-`splinterdb.c`, `cache.h`, and `include/splinterdb/splinterdb.h` are
-modified to embed Tree Counters in pivot entries and route them through
-eviction. Everything else is stock SplinterDB.
+`clockcache.{c,h}`). The main modifications are in `btree.{c,h}`,
+`btree_private.h`, `trunk.c`, `core.c`, `routing_filter.c`,
+`splinterdb.c`, `cache.h`, and `include/splinterdb/splinterdb.h`, which
+embed Tree Counters in pivot entries and route them through eviction.
+A few companion headers and `task.c` carry minor supporting tweaks;
+everything else is stock SplinterDB.
 
 ## Prerequisites
 

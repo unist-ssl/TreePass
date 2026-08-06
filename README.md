@@ -1,5 +1,5 @@
 <h1>
-  <img align="right" width="80" src=".github/badges/usenixbadges-functional.png" alt="USENIX Artifact Evaluated: Functional"/><img align="right" width="80" src=".github/badges/usenixbadges-available.png" alt="USENIX Artifact Evaluated: Available"/>
+  <img align="right" width="80" src="https://raw.githubusercontent.com/unist-ssl/TreePass/fast27/.github/badges/usenixbadges-functional.png" alt="USENIX Artifact Evaluated: Functional"/><img align="right" width="80" src="https://raw.githubusercontent.com/unist-ssl/TreePass/fast27/.github/badges/usenixbadges-available.png" alt="USENIX Artifact Evaluated: Available"/>
   TreePass: Lightweight Tree-Guided Cache Management for B<sup>+</sup>-tree Key-Value Stores
 </h1>
 
